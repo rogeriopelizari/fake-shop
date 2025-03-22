@@ -15,6 +15,7 @@ Se você ainda não tem uma conta na Digital Ocean, pode se cadastrar através d
 
 ## 🛠 Tarefa Prática
 🚀 Automação do Deploy com CI/CD
+
 🚀 Crie uma pipeline CI/CD no GitHub Actions para automatizar o processo de build e deploy.
 
 ## A pipeline deve:
