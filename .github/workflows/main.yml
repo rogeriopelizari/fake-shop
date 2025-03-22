@@ -22,11 +22,9 @@ jobs:
         with:
           context: ./src
           push: true
-          file: ./src/Dockerfile
-
-#rogpelizari/fake-shop-desafio:v${{ github.run_number }}          
+          file: ./src/Dockerfile        
           tags: |
-            rogpelizari/fake-shop-desafio:latest
+            rogpelizari/fake-shop-desafio:v${{ github.run_number }}
             
 
   CD:
