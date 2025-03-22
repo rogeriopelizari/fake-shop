@@ -45,7 +45,7 @@ jobs:
       - name: Executando o Deployment
         uses: Azure/k8s-deploy@v5
         with:
-          manifest: |
+          manifests: |
             k8s/deployment.yaml
           images: |
             rogpelizari/fake-shop-desafio:v${{ github.run_number }}
